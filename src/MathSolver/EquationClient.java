@@ -15,6 +15,7 @@ public class EquationClient {
              ObjectOutputStream objectOutputStream = new ObjectOutputStream(output);
              ObjectInputStream objectInputStream = new ObjectInputStream(input)) {
 
+        
             Scanner scanner = new Scanner(System.in);
 
             // Read the number of equations (and variables)
